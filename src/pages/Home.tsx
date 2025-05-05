@@ -70,7 +70,7 @@ const Home: React.FC = () => {
               }}
             />
             <motion.img
-              src="https://github.com/Dhruvil-CS/General/blob/main/profile.jpeg?raw=true"
+              src={`${process.env.PUBLIC_URL}/profile.jpeg`}
               alt="Dhruvil Kotecha"
               style={{
                 position: 'relative',
